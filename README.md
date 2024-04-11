@@ -1,15 +1,16 @@
 # medical recommendation system with blockchain
 
-User-Friendly Interface: Our intuitive interface allows users to input their symptoms effortlessly, creating a seamless user experience.
+The Blockchain based healthcare recommender system is a designed keeping in mind the needs of doctors and patients .The data is stored in a blockchain system to prevent tampering of the data.This Highly personal and confidential data should only be accessible to verified personnel and doctors.This makes the healthcare system more transparent and secure.
 
-Advanced Machine Learning Models: We've integrated state-of-the-art machine learning models that accurately predict diseases based on input symptoms, ensuring reliable and precise results.
+Considerations made while designing the overlay of the system .
+1.The system should store the information of doctors and patients in different blocks.
+2.The patients data like age and medical conditions can be stored in blockchain
+3.On the basis of the symptoms described by the patient the disease can be predicted and the related diets ,medications and exercise can be recommended to the patient.
+4.This recommendation data can also be stored in the blockchain under the particular patient data to maintain health care records and history of patients.
 
-Tailored Recommendations: Receive personalized recommendations for the top 5 medicines, prescription details, and even workout routines based on the predicted disease.
+# Limitations of current model
+1.The results of the recommendation system are in ideal conditions and give accuracy of 100 but when dataset is changed to a more robust dataset the accuracy might drop and in those scenarios there may be requirement of more powerful algorithms.
+2.The current implementation of the model lacks in storing the recommendations in the blocks as per individual patients which can be delved deeper in future scope.
+3.Current blockchain recommender system does not use a smart contract for storing transactions as of now the blockchain creation is done in python .The transactions can be made with help of smart contracts.
+4.Currently we are running the blockchain system via postman.But a web Interface can be designed to make it more user friendly  and easy to use.
 
-Flask App Integration: The entire system is powered by a Flask web application, making it easily accessible to users. Experience the convenience of accessing healthcare recommendations from anywhere.
-
-Privacy and Security: We prioritize user privacy and data security. Your health information is handled with the utmost confidentiality, adhering to the highest industry standards.
-
-Continuous Improvement: Our system is designed for continuous improvement. As we gather more data, the machine learning models evolve, providing increasingly accurate and relevant recommendations.
-
-Take charge of your health with our Personalized Medical Recommendation System. Your well-being is our priority, and we're dedicated to providing you with the tools and insights you need for a healthier, happier life.
